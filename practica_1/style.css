@@ -135,15 +135,30 @@ footer{
         margin-left: 10px;
         display: block;
     }
+    #Encabezado nav{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: sticky;
+    }
+    .menu{
+        display: flex;
+        justify-content: center;
+
+    }
     #Encabezado nav ul{
-        position: fixed;
+        position:fixed;
         width: 100vw;
         height: 100vh;
+        margin-top: 50px 200px;
+        margin-left: 0;
+        padding: 15px;
         border-radius: 10px;
-        background: rgb(76,67,173);
-        background: radial-gradient(circle, rgba(76,67,173,0.8548669467787114) 24%, rgba(138,46,174,1) 100%);
+        background-color: rgb(49, 12, 84);
         display: flex;
         text-align: center;
+        justify-items: center;
+        justify-content: center;
 
 
         top: 80px;
@@ -154,18 +169,26 @@ footer{
     .menu{
         display: flex;
         text-align: center;
-        justify-content: center;
+        justify-content: space-between;
         position:inherit;
     }
     #Encabezado nav ul li{
-        display: block;
+        display: flex;
+        width: 300px;
         margin: 50px 0;
+        justify-content: center;
         line-height: 30px;
         border: 1px;
         border-radius: 5px;
         background: rgb(73,27,110);
         background: radial-gradient(circle, rgba(73,27,110,1) 0%, rgba(86,42,110,1) 28%, rgba(43,38,96,1) 52%, rgba(62,32,100,1) 66%, rgba(79,0,110,1) 82%);
     }
+    #Encabezado nav ul li a{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
     #check:checked~ul{
         left: 0%;
         display: block;
