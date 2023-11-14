@@ -1,0 +1,34 @@
+ul{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;  
+}
+a{
+    text-decoration: none;
+    color: rgb(222, 43, 43);
+}
+header{
+    display: flex;
+    background-color: blue;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-inicio{
+    display: flex;
+    gap: 100px;
+    background-color: aqua;
+    margin: 15px;
+}
+.imginicio{
+        color: aliceblue;
+        font-size: 3rem;
+        padding: 25px;
+        background-color: black;
+}
+.contactlist{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color: aquamarine;
+}
